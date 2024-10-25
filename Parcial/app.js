@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Ruta para labout
+// Ruta para about
 app.get('/about', (req, res) => {
     console.log('Estamos en la página About');
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
